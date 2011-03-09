@@ -1,0 +1,18 @@
+<ServerManagerConfiguration>
+  <ProxyGroup name="sources">
+   <SourceProxy name="EllipsoidSource" class="vtkEllipsoidSource" label="EllipsoidSource">
+     <Documentation
+        long_help="Create an ellipsoid."
+        short_help="Create an ellipsoid.">
+     </Documentation>
+      
+      <DoubleVectorProperty
+        name="YourDoubleVariable"
+        command="SetYourDoubleVariable"
+        number_of_elements="1"
+        default_values="1">
+      </DoubleVectorProperty>
+
+   </SourceProxy>
+ </ProxyGroup>
+</ServerManagerConfiguration>
