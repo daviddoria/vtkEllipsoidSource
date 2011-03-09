@@ -1,0 +1,1 @@
+vtkEllipsoidSource is a new superclass of vtkSphereSource to allow the creation of an ellipse.
